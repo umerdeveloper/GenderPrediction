@@ -13,6 +13,7 @@
 		CBBBFB3123485EEE00314942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBBFB2F23485EEE00314942 /* Main.storyboard */; };
 		CBBBFB3323485EF000314942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBBFB3223485EF000314942 /* Assets.xcassets */; };
 		CBBBFB3623485EF000314942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBBFB3423485EF000314942 /* LaunchScreen.storyboard */; };
+		CBBBFB3E2348642600314942 /* GenderByName.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFB3D2348642600314942 /* GenderByName.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CBBBFB3223485EF000314942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBBBFB3523485EF000314942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBBBFB3723485EF000314942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBBBFB3D2348642600314942 /* GenderByName.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GenderByName.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CBBBFB2923485EEE00314942 /* AppDelegate.swift */,
 				CBBBFB2B23485EEE00314942 /* SceneDelegate.swift */,
 				CBBBFB2D23485EEE00314942 /* ViewController.swift */,
+				CBBBFB3D2348642600314942 /* GenderByName.mlmodel */,
 				CBBBFB2F23485EEE00314942 /* Main.storyboard */,
 				CBBBFB3223485EF000314942 /* Assets.xcassets */,
 				CBBBFB3423485EF000314942 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBBBFB2E23485EEE00314942 /* ViewController.swift in Sources */,
+				CBBBFB3E2348642600314942 /* GenderByName.mlmodel in Sources */,
 				CBBBFB2A23485EEE00314942 /* AppDelegate.swift in Sources */,
 				CBBBFB2C23485EEE00314942 /* SceneDelegate.swift in Sources */,
 			);
